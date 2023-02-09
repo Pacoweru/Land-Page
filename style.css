@@ -4,7 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 1000vh;
+    margin: 0;
     
+}
+
+.todo {
+    margin: 0;
+    width: 100%;
 }
 
 /*Parte del header*/
@@ -59,7 +65,7 @@ a {
     
 }
 
-h1 {
+.c1izq > h1 {
     font-size: 40px;
     color: white;
 }
@@ -94,9 +100,21 @@ button {
 /*Parte info*/
 
 .contenedor2 {
-    width: 33.333%;
-    height: 200px;
-    float: left;
+    display: flex;
+    max-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: 500px;
+    justify-content: center;
     background-color: white;
+}
+
+.subtit > h1 {
+    margin-top: 50px;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
 }
 
