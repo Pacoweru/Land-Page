@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    background-color: rgb(48, 67, 96);
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
 
@@ -39,4 +39,54 @@ a {
 
 /*Debajo Header*/
 
+.contenedor1 {
+    border: solid red;
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    flex-shrink: 1;
+    flex: 1;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.c1izq {
+    display: flex;
+    flex-direction: column;
+
+    padding: 8px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+p{
+    margin-top: -15px;
+    margin-left: 4.5px;
+    color: rgba(255, 255, 255, 0.797);
+}
+
+img {
+    margin-top: 50px;
+    width: 450px;
+    height: 245px;
+    padding: 16px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 6px;
+    padding: 15px px;
+    font-weight: 700;
+    text-align: center;
+}
 
