@@ -6,6 +6,7 @@ body {
     height: 1000vh;
     width: 100%;
     margin: 0;
+    flex-wrap: nowrap;
     
 }
 
@@ -61,8 +62,8 @@ a {
 .c1izq {
     display: flex;
     flex-direction: column;
-
     padding: 8px;
+    
     
 }
 
@@ -72,12 +73,14 @@ a {
 }
 
 p{
+    display: flex;
+    
     margin-top: -15px;
     margin-left: 4.5px;
     color: rgba(255, 255, 255, 0.797);
 }
 
-img {
+.c1dcha > img {
     margin-top: 50px;
     width: 450px;
     height: 245px;
@@ -96,7 +99,9 @@ button {
     text-align: center;
 }
 
-
+.c1izq h1, .c1izq p {
+    white-space: nowrap;
+ } 
 
 /*Parte info*/
 
@@ -108,14 +113,63 @@ button {
     height: 500px;
     justify-content: center;
     background-color: white;
+    
 }
 
-.subtit > h1 {
+
+.subtit h1 {
     margin-top: 50px;
     display: flex;
     font-size: 30px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
     align-items: center;
+    justify-content: center;
 }
+
+.imgstxt {
+    display: flex;
+    align-items: center;
+    
+}
+
+.imgs {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+
+.col > img {
+    height: 200px;
+    width: 200px;
+    border: solid  #3b82f6;
+    border-radius: 25px;
+    border-width: 5px;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 22px;
+
+    
+}
+
+.txt {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+    gap: 8px;
+    word-wrap: break-word;
+    color: rgba(87, 86, 86, 0.797);
+    font-size: 18px;
+}
+
+
 
