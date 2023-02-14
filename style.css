@@ -199,11 +199,51 @@ button {
 
 .autor {
     display: flex;
+    flex-wrap: nowrap;
     align-self: flex-end;
     margin-right: 380px;
     margin-top: 16px;
     font-weight: 900;
     font-size: 20px;
+}
+
+
+/*Parte anuncio*/
+
+.contenedor4 {
+    display: flex;
+    background-color: white;
+    max-width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contazul {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    width: 900px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coni {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cond {
+    display: flex;
+
+}
+
+.cond > button {
+    border: solid white;
 }
 
 
