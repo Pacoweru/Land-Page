@@ -246,5 +246,19 @@ button {
     border: solid white;
 }
 
+/*Parte copyright*/
 
+.contenedor5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    max-width: 100%;
+    border: solid red;
+    height: 100px;
+}
+
+.copy {
+    color: white;
+}
 
