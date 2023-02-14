@@ -183,11 +183,18 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+
     
 }
 
-.cita {
+.contenedor31 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+.cita {
+    display: flex;
     word-wrap: break-word;
     width: 760px;
     font-size: 36px;
