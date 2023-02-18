@@ -1,5 +1,5 @@
 body {
-    background-color: #1f2937;
+    background-color: #1f372e;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -90,7 +90,7 @@ button {
     width: 100px;
     height: 35px;
     margin-left: 3px;
-    background-color: #3b82f6;
+    background-color: #2fc684;
     color: white;
     border-radius: 6px;
     padding: 15px px;
@@ -143,7 +143,7 @@ button {
 .col > img {
     height: 200px;
     width: 200px;
-    border: solid  #3b82f6;
+    border: solid  #2fc684;
     border-radius: 25px;
     border-width: 5px;
 
@@ -230,7 +230,7 @@ button {
     flex-direction: row;
     height: 125px;
     width: 900px;
-    background-color: #3b82f6;
+    background-color: #2fc684;
     color: white;
     border-radius: 10px;
     align-items: center;
@@ -258,7 +258,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #1f372e;
     max-width: 100%;
     height: 100px;
 }
