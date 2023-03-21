@@ -4,8 +4,10 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    margin: 0;
     flex-wrap: nowrap;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .todo {
@@ -43,16 +45,25 @@ a {
     color: rgba(255, 255, 255, 0.797);
 }
 
+
+
+/*Parte Info contacto*/
+
+#continfo {
+    display: flex;
+    max-width: 100%;
+    height: 55vh;
+    border: solid red;
+    padding: 10px;
+}
+
 /*Parte formulario*/
 
-#contenedorform {
-    display: flex;
-    background-color: #E5E7EB;
-    max-width: 100%;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#contform {
+    background-color: white;
+    padding: 15px;
 }
+
 
 #formulario1 {
     display: flex;
