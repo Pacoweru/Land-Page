@@ -52,10 +52,44 @@ a {
 #continfo {
     display: flex;
     max-width: 100%;
-    height: 55vh;
-    border: solid red;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    gap: 16px;
 }
+
+
+.txt{
+display: flex;
+flex-direction: column;
+}
+
+#bigtxt{
+    display: flex;
+
+}
+
+#bigtxt > h1 {
+    font-size: 48px;
+    color: white;
+}
+
+#peqtxt {
+    margin-top: -15px;
+    margin-left: 4.5px; 
+    color: rgba(255, 255, 255, 0.797);
+}
+
+.imageninf img {
+    height: 370px;
+}
+
+
+
+
+
 
 /*Parte formulario*/
 
