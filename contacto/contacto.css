@@ -113,6 +113,11 @@ flex-direction: column;
     align-items: start;
 }
 
+#subtit a{
+    color: gray;
+    text-decoration: underline;
+}
+
 #cajaform {
     display: flex;
     justify-content: center;
