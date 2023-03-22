@@ -98,11 +98,31 @@ flex-direction: column;
     padding: 15px;
 }
 
+#titulo h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#subtit {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: gray;
+    align-items: start;
+}
+
+#cajaform {
+    display: flex;
+    justify-content: center;
+}
+
 
 #formulario1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     margin: 0 auto;
     width: 55vh;
