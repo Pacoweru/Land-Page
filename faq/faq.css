@@ -52,7 +52,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid red;
+
     height: 45vh;
     padding-top: 30px;
     gap: 16px;
@@ -66,9 +66,11 @@ flex-direction: column;
 
 #faqtxt{
     color: rgba(255, 255, 255, 0.797);
+    margin-top: -15px;
+    margin-left: 4.5px; 
 }
 
-#faqtit h1{
+#faqtit > h1{
     font-size: 48px;
     color: white;
 }
@@ -76,5 +78,16 @@ flex-direction: column;
 #faqimg img{
 display: flex;
 height: 340px;
+}
+
+
+
+/*Parte Faq*/
+
+.contpreg {
+    display: flex;
+
+    height: 45vh;
+    background-color: white;
 }
 
