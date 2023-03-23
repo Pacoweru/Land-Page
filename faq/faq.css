@@ -44,3 +44,37 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.797);
 }
+
+
+/*Parte Faq Info*/
+
+.contfaq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
+    height: 45vh;
+    padding-top: 30px;
+    gap: 16px;
+    padding-bottom: 100px;  
+}
+
+#faqinfo{
+display: flex;
+flex-direction: column;
+}
+
+#faqtxt{
+    color: rgba(255, 255, 255, 0.797);
+}
+
+#faqtit h1{
+    font-size: 48px;
+    color: white;
+}
+
+#faqimg img{
+display: flex;
+height: 340px;
+}
+
