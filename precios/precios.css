@@ -123,6 +123,42 @@ flex-wrap: wrap;
     border: solid #2fc684;
 }
 
+.planpers {
+    width: 600px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: solid #2fc684;
+}
+.planpers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.planpers p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.planpers button {
+    width: 100px;
+    height: 35px;
+    background-color: #2fc684;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .plan h2 {
     font-size: 24px;
     margin-bottom: 20px;
