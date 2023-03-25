@@ -83,7 +83,8 @@ p{
     margin-top: 50px;
     width: 450px;
     height: 300px;
-    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -146,6 +147,7 @@ button {
     border: solid  #2fc684;
     border-radius: 25px;
     border-width: 5px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -225,7 +227,7 @@ button {
     align-items: center;
 }
 
-.contazul {
+.contverde {
     display: flex;
     flex-direction: row;
     height: 125px;
@@ -235,6 +237,7 @@ button {
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .coni {
