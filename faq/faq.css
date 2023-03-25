@@ -70,6 +70,10 @@ flex-direction: column;
     margin-left: 4.5px; 
 }
 
+#faqtxt a{
+    text-decoration: underline;
+}
+
 #faqtit > h1{
     font-size: 48px;
     color: white;
@@ -86,8 +90,8 @@ height: 340px;
 
 .contpreg {
     display: flex;
-
     height: 45vh;
     background-color: white;
+    justify-content: center;
 }
 
