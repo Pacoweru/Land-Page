@@ -118,4 +118,38 @@ height: 340px;
     padding: 2%;
 }
 
+/*Parte recuerda contactar*/
+
+.cont3preg{
+    display: flex;
+    height: 20vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#contrecuerda{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2fc684;
+    width: 60%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+#txtrecuerda{
+    color: white;
+}
+
+#boton button {
+    height: 35px;
+    width: 130%;
+    color: white;
+    background-color: #2fc684;
+    border: solid white;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
 
