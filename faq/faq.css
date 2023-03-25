@@ -90,8 +90,32 @@ height: 340px;
 
 .contpreg {
     display: flex;
-    height: 45vh;
+    flex-direction: column;
+    height: 120vh;
     background-color: white;
-    justify-content: center;
+    align-items: center;
+    
 }
+
+#titulopreg{
+    display: flex;  
+    margin-bottom: 8px;
+}
+
+
+#titulopreg h1{
+    font-weight: 900;
+    font-size: 35px;
+ 
+}
+
+#faqs {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    border: solid #2fc684;
+    border-radius: 12px;
+    padding: 2%;
+}
+
 
