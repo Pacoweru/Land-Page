@@ -139,3 +139,18 @@ a {
     color: #50C878;
 }
 
+
+/*Parte copyright*/
+
+.contenedor5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f372e;
+    max-width: 100%;
+    height: 100px;
+}
+
+.copy {
+    color: white;
+}
