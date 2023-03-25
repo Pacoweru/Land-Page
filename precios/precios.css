@@ -1,4 +1,50 @@
+body {
+    background-color: #1f372e;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+}   
 
+.todo {
+    margin: 0;
+    width: 100%;
+}
+
+
+/*Parte del header*/
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo a {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.links {
+     display: flex;
+     gap: 16px;
+     color: rgba(255, 255, 255, 0.797);
+     
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.797);
+}
 
 
 
@@ -92,3 +138,4 @@
     font-family: 'Roboto', sans-serif;
     color: #50C878;
 }
+
