@@ -231,7 +231,7 @@ button {
     display: flex;
     flex-direction: row;
     height: 125px;
-    width: 900px;
+    width: 900px;           
     background-color: #2fc684;
     color: white;
     border-radius: 10px;
