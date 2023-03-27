@@ -102,22 +102,26 @@ a {
 
 .opiniones {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
     flex-wrap: wrap;
     margin-top: 30px;
-    gap: 16px;
+    
 
 }
 
 .opinion {
-    display: contents;
-    border: solid green;
-    padding: 10px;
+    display: flex;
+    width: 60%;
+    gap: 32px;
+    margin: 0 auto;
+    padding: 30px;
+
+    
 }
 
 .imgop img {
-    display: block;
+   
     margin: 0 auto;
     width: 150px;
     height: 150px;
@@ -133,4 +137,8 @@ a {
 .cliente p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+hr {
+    width: 60%;
 }
