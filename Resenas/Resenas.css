@@ -78,3 +78,59 @@ a {
      box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
     }
     
+
+/*Parte de la sección de opiniones*/
+
+.contenedorop{
+    background-color: white;
+    padding: 60px 0;
+}
+
+.subtitop{
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitop h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.opiniones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 16px;
+
+}
+
+.opinion {
+    display: contents;
+    border: solid green;
+    padding: 10px;
+}
+
+.imgop img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cliente h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cliente p {
+    font-size: 18px;
+    line-height: 1.5;
+}
