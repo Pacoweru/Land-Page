@@ -94,6 +94,7 @@ button {
     padding: 15px px;
     font-weight: 700;
     text-align: center;
+    border: transparent;
 }
 
 .c1izq h1, .c1izq p {
@@ -248,9 +249,15 @@ button {
 
 }
 
-.cond > button {
+.cond button {
+    height: 35px;
+    color: white;
+    background-color: #2fc684;
     border: solid white;
+    border-radius: 6px;
+    font-weight: 700;
 }
+
 
 /*Parte copyright*/
 
