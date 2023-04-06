@@ -1,3 +1,2 @@
 # Land-page
-Solo una pagina en la que estoy trabajando...
-WIP
+Terminada pagina de practica para probar css y html
